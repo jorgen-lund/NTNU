@@ -1,6 +1,6 @@
 # Databased2
 
-## Project Members:
+## Project Members
 
 - Jørgen Hoel Lund
 - Odin Strand Leifere
