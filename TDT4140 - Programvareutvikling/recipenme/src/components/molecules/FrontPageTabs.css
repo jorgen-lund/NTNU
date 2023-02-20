@@ -1,0 +1,27 @@
+#searchbarContainerID {
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 47vw;
+}
+#searchbar {
+    position: relative;
+    margin: 1vw 0.5vw;
+    height: 2.5vw;
+    width: 40vw;
+    border-radius: 1vw;
+    border: 1px solid #76af67;
+    padding-left: 1vw;
+    outline: none;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+}
+#searchButton {
+    position: relative;
+    height: 2.5vw;
+    width: 5vw;
+    border-radius: 1vw;
+    background-color: #76af67;
+    border: none;
+    margin: 1vw 0.5vw;
+}

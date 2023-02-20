@@ -1,0 +1,23 @@
+.formButton {
+  margin: 1vw;
+  width: 20vw;
+  height: 4vw;
+  border: none;
+  background: #e1eedd;
+  font-size: 2vw;
+  color: black;
+  border-radius: 1vw;
+  font-family: sans-serif;
+}
+
+.formButton:hover {
+  transform: scale(1.1);
+  background-color: #d3e4ce;
+  transition: 300ms;
+}
+
+.formButton:not(:hover) {
+  transform: scale(1);
+  background: #e1eedd;
+  transition: 300ms;
+}

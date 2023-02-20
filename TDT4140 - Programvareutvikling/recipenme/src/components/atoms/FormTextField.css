@@ -1,0 +1,26 @@
+.formTextField {
+  margin: 0px;
+  padding: 0px;
+  margin: 1vw;
+  width: 45vw;
+  height: 4vw;
+  font-size: 2vw;
+  border: none;
+  background-color: white;
+  border-bottom: #e1eedd solid 0.3vw;
+  font-family: sans-serif;
+}
+
+.formTextField:hover {
+  background-color: rgb(243, 243, 243);
+  border-bottom: #d3e4ce solid 0.3vw;
+}
+
+.formTextField:not(:hover) {
+  background-color: white;
+}
+
+.formTextField:focus {
+  outline: none;
+  border: #d3e4ce solid 0.3vw;
+}

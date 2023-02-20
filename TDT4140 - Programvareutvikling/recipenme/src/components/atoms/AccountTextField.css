@@ -1,0 +1,14 @@
+.textfield {
+    padding: 10px 15px;
+    margin-top: 10px;
+    width: 80%;
+    border: none;
+    background-color: #e1eedd;
+    border-radius: 10px;
+}
+
+/*
+.textfield:hover{
+    border-color: black;
+    border-style: solid;
+} */

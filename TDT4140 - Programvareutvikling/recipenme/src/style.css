@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #E1EEDD;
+    height: 90px;
+    padding: 10px 25px;
+}
+.AppTitle {
+    margin-right: auto;
+    margin-left: 32%;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}

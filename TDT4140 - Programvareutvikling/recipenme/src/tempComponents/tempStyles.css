@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  
+  body {
+      margin: 0;
+      font-family: sans-serif;
+      height: 100vh;
+      background-color: #FFFFFF;
+  }
+  
+  /*NewMainBody styling*/
+
+  .NewMainBody--body {
+    display: table;
+    margin: 3% auto;
+  }
+  /*MainBody styling*/
+  .MainBody {
+    margin: 2% 5%;
+    height: 100vh;
+    color: black;
+  }
+
+  .MainBody--list {
+    margin-right: 15%;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  
+  .MainBody--list > li {
+    padding: 5% 5%;
+    border: 1px solid black;
+  }
+  
+  .MainBody--list > li::marker {
+    color: white; /*Removing bulletpoints again*/
+  } 
+  
+  .MainBody--biff > img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .MainBody--biff > h4 {
+    margin-left: 10%;
+  }
+  
+  .MainBody--laks > img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .MainBody--laks > h4 {
+    margin-left: 10%;
+  }
+  
+  .MainBody--pizza > img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .MainBody--pizza > h4 {
+    margin-left: 10%;
+  }
+  
+  .MainBody--spagh_bolo > img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .MainBody--spagh_bolo > h4 {
+    margin-left: 10%;
+  }  
+
+  

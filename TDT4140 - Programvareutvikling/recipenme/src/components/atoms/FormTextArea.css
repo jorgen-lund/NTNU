@@ -1,0 +1,42 @@
+.formTextArea {
+  margin: 0px;
+  padding: 0px;
+  margin: 1vw;
+  width: 45vw;
+  height: 15vw;
+  font-size: 2vw;
+  line-height: 3vw;
+  border: none;
+  background-color: white;
+  border-bottom: #e1eedd solid 0.3vw;
+  font-family: sans-serif;
+}
+
+.formTextArea:hover {
+  background-color: rgb(243, 243, 243);
+  border-bottom: #d3e4ce solid 0.3vw;
+}
+
+.formTextArea:not(:hover) {
+  background-color: white;
+}
+
+.formTextArea:focus {
+  outline: none;
+  border: #d3e4ce solid 0.3vw;
+}
+
+::-webkit-scrollbar {
+  width: 1vw;
+}
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+  border-radius: 1vw;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1eedd;
+  border-radius: 1vw;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d3e4ce;
+}

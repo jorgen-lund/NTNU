@@ -1,0 +1,17 @@
+.signUpButton{
+    border: none;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 3px;
+    color: #a9d89b;
+}
+
+.signUpText{
+    display:inline;
+    font-size: 13px;
+    margin-left: 20%;
+}
+
+.signUpButton:hover {
+    color: #73c05e;
+}

@@ -1,0 +1,145 @@
+/* 
+CSS and Flexbox Guides:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology
+https://www.w3schools.com/cssref/css3_pr_justify-content.asp
+
+grid guide:
+https://css-tricks.com/snippets/css/complete-guide-grid/
+*/
+
+/*.wrapper {
+    display: grid; 
+    grid-template-columns: 25% 75%; 
+    grid-template-rows: 25% 75%;
+    column-gap: 10px;
+    row-gap: 10px;
+    color: black;
+}
+
+.wrapper > .photo {
+    background-color: lightpink; 
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.wrapper > .title {
+    background-color: lightcyan;
+    text-align: center; 
+    padding-top: 25px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.wrapper > .ingredients {
+    background-color: lightskyblue; 
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.wrapper > .description {
+    background-color: lightseagreen; 
+    bottom: 0%;
+    padding: 5%;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}*/
+
+#visibilityDiv {
+    display: none;
+    z-index: 10;
+}
+#exitButton {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    background-color: black;
+    color: white;
+    top: 0px;
+    right: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+}
+
+.wrapper {
+    background-color: #FEFBE9;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    width: 80vw;
+    max-width: 80vw;
+    min-width: 80vw;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding-bottom: 30px;
+}
+
+#titleField {
+    font-size: 5vw;
+}
+
+#timeAndCategoryField {
+    font-size: 3vw;
+    
+}
+
+#imageField > img {
+    width: 80vw;
+    height: auto;
+}
+
+.headerField {
+    font-weight: 100;
+    font-size: 4vw;
+    padding: 20px 0px;
+}
+
+.one {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.two {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.three {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.division {
+    width: 35vw;
+    overflow-y: auto;
+    font-size: 2vw;
+}
+
+#owner {
+    font-size: 2vw;
+    font-weight: 300;
+}
+
+#deleteRecipeButton {
+    z-index: 11;
+    padding: 15px 30px;
+    margin-top: 1.5vw;
+    border-radius: 1vw;
+    border: none;
+    background-color: #a9d89b;
+    color: white;
+    font-size: 20px;
+}

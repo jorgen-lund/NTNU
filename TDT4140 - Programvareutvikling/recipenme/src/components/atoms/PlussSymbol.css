@@ -1,0 +1,36 @@
+.plussContainer {
+  height: 4vw;
+  width: 4vw;
+  margin: 1vw;
+  background-color: #e1eedd;
+  border-radius: 1vw;
+}
+
+.vertical {
+  position: relative;
+  top: 0.5vw;
+  margin: auto;
+  height: 3vw;
+  width: 0.5vw;
+  background-color: black;
+}
+.horizontal {
+  position: relative;
+  bottom: 1.25vw;
+  margin: auto;
+  height: 0.5vw;
+  width: 3vw;
+  background-color: black;
+}
+
+.plussContainer:hover {
+  transform: scale(1.1);
+  background-color: #d3e4ce;
+  transition: 300ms;
+}
+
+.plussContainer:not(:hover) {
+  transform: scale(1);
+  background-color: #e1eedd;
+  transition: 300ms;
+}

@@ -1,0 +1,15 @@
+.settingsOption {
+    width: 30%;
+    padding: 20px;
+    background-color: #a9d89b;
+    color: white;
+    text-align: center;
+    border: none;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.settingsOption:hover{
+    /*background-color: #97cc88; */
+    background-color: #d3e4ce;
+}

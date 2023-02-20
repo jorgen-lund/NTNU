@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+#navbarTitle {
+    margin-left: -11vw;
+    height: 5vw;
+    border-radius: none;
+    border: none;
+    background-color: #E1EEDD;
+    color: #2f4f4f;
+    text-align: center;
+    font-family: 'Peralta', cursive;
+    font-size: 3vw;
+    padding: 7px 20px;
+}
+
+#navbarTitle:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}

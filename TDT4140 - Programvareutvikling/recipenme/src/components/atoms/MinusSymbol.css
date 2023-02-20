@@ -1,0 +1,8 @@
+.minusHorizontal {
+  position: relative;
+  margin: auto;
+  height: 0.5vw;
+  top: 1.75vw;
+  width: 3vw;
+  background-color: black;
+}

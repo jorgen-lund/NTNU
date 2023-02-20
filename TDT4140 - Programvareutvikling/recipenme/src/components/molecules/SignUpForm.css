@@ -1,0 +1,32 @@
+.signUpDiv{
+    margin: auto;
+    /*top: 0; */
+    margin-top: 1vw;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    height: 550px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #a9d89b;
+}
+
+.signUpDiv > #button {
+    text-align: center;
+}
+
+.signUpForm{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.signUpError{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 5%;
+    margin-bottom: -3vw;
+    color: red;
+    display: none;
+    z-index: 1;
+}

@@ -1,0 +1,60 @@
+/* 
+CSS and Flexbox Guides:
+afterhttps://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology
+https://www.w3schools.com/cssref/css3_pr_justify-content.asp
+*/
+#addRecipeButton {
+    font-size: 2vw;
+    outline: none;
+    width: 30vw;
+    height: 4vw;
+    border-radius: 1vw;
+    background-color: #a9d89b;
+    text-align: center;
+    line-height: 4vw;
+    margin: 2vw 0px;
+}
+.tabs {
+    margin: 5vw;
+}
+#userinfo {
+    width: 40vw;
+    border-radius: 1vw;
+    margin: 2vw auto;
+}
+#pluss {
+    height: 35px;
+    width: 20vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#pluss>h1 {
+    font-size: 2vw;
+    line-height: 35px;
+}
+
+.NewRecipe {
+    /*display: flex;
+    flex-wrap: wrap;
+    margin: 0% 5%;
+    height: 100vh;
+    color: black;
+    padding: 5%;*/
+    text-align: center;
+
+}
+
+.ProfileName {
+    font-weight: 100;
+    font-size: 2vw;
+}
+.ProfileEmail {
+    font-weight: 100;
+    font-size: 2vw;
+}
+.ProfileUserName {
+    font-weight: 400;
+    font-size: 2vw;
+}
