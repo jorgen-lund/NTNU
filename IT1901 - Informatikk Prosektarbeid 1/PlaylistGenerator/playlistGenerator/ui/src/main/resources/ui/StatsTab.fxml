@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="StatsTab" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="652.0" prefWidth="823.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.StatsTabController">
+   <children>
+      <Pane prefHeight="652.0" prefWidth="823.0">
+         <children>
+            <Pane layoutX="53.0" layoutY="84.0" prefHeight="549.0" prefWidth="718.0" style="-fx-background-color: lightblue; -fx-border-color: black;">
+               <children>
+                  <TextArea fx:id="highestRatedViewer" editable="false" layoutX="40.0" layoutY="85.0" prefHeight="440.0" prefWidth="300.0" style="-fx-border-color: black;" />
+                  <TextArea fx:id="mostAddedViewer" editable="false" layoutX="388.0" layoutY="85.0" prefHeight="440.0" prefWidth="300.0" style="-fx-border-color: black;" />
+                  <Label layoutX="82.0" layoutY="25.0" text="Highest Rated">
+                     <font>
+                        <Font name="Impact" size="38.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="449.0" layoutY="25.0" text="Most Added">
+                     <font>
+                        <Font name="Impact" size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Label layoutX="314.0" layoutY="14.0" text="Song Stats">
+               <font>
+                  <Font name="Impact" size="45.0" />
+               </font>
+            </Label>
+            <Button fx:id="statsTabRefreshButton" layoutX="53.0" layoutY="23.0" mnemonicParsing="false" onAction="#refreshStats" prefHeight="20.0" prefWidth="97.0" style="-fx-background-color: lightblue; -fx-border-color: black;" text="Refresh">
+               <font>
+                  <Font name="Impact" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Label layoutX="730.0" layoutY="18.0" text="© Group 2143">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="PlaylistTab" prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.PlaylistTabController">
+    <children>
+        <Pane prefHeight="652.0" prefWidth="823.0">
+            <children>
+                <Pane layoutX="285.0" layoutY="89.0" prefHeight="549.0" prefWidth="253.0" style="-fx-background-color: lightblue; -fx-border-color: black;">
+                    <children>
+                        <Button fx:id="createPlaylist" layoutX="18.0" layoutY="490.0" mnemonicParsing="false" onAction="#createPlaylist" prefHeight="45.0" prefWidth="217.0" style="-fx-background-color: pink; -fx-border-color: black;" text="CREATE PLAYLIST">
+                            <font>
+                                <Font name="Impact" size="20.0" />
+                            </font>
+                        </Button>
+                        <Label alignment="CENTER" layoutX="56.0" layoutY="194.0" text="MAXIMUM RATING" textAlignment="CENTER">
+                            <font>
+                                <Font name="Impact" size="20.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="58.0" layoutY="110.0" text="MINIMUM RATING" textAlignment="CENTER">
+                            <font>
+                                <Font name="Impact" size="20.0" />
+                            </font>
+                        </Label>
+                        <Slider fx:id="minRating" blockIncrement="1.0" layoutX="18.0" layoutY="144.0" majorTickUnit="1.0" max="10.0" minorTickCount="1" prefHeight="14.0" prefWidth="217.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+                        <Slider fx:id="maxRating" blockIncrement="1.0" layoutX="18.0" layoutY="225.0" majorTickUnit="1.0" max="10.0" minorTickCount="1" prefHeight="14.0" prefWidth="217.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+                        <Label layoutX="68.0" layoutY="29.0" text="PLAYLIST NAME" textAlignment="CENTER">
+                            <font>
+                                <Font name="Impact" size="20.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="playlistName" alignment="CENTER" layoutX="52.0" layoutY="60.0" promptText="ENTER NAME" style="-fx-border-color: black;" />
+                        <Button id="Happy" fx:id="playlistMoodHappy" alignment="CENTER" layoutX="26.0" layoutY="311.0" mnemonicParsing="false" onAction="#addPlaylistMood" style="-fx-background-color: pink; -fx-border-color: black;" text="HAPPY" textAlignment="CENTER">
+                            <font>
+                                <Font name="Impact" size="15.0" />
+                            </font>
+                        </Button>
+                        <Button id="Love" fx:id="playlistMoodLove" alignment="CENTER" layoutX="185.0" layoutY="419.0" mnemonicParsing="false" onAction="#addPlaylistMood" style="-fx-background-color: pink; -fx-border-color: black;" text="LOVE" textAlignment="CENTER">
+                            <font>
+                                <Font name="Impact" size="15.0" />
+                            </font>
+                        </Button>
+                        <Button id="Running" fx:id="playlistMoodRunning" alignment="CENTER" layoutX="97.0" layoutY="419.0" mnemonicParsing="false" onAction="#addPlaylistMood" style="-fx-background-color: pink; -fx-border-color: black;" text="RUNNING" textAlignment="CENTER">
+                            <font>
+                                <Font name="Impact" size="15.0" />
+                            </font>
+                        </Button>
+                        <Button id="Sensual" fx:id="playlistMoodSensual" alignment="CENTER" layoutX="173.0" layoutY="366.0" mnemonicParsing="false" onAction="#addPlaylistMood" style="-fx-background-color: pink; -fx-border-color: black;" text="SENSUAL" textAlignment="CENTER">
+                            <font>
+                                <Font name="Impact" size="15.0" />
+                            </font>
+                        </Button>
+                        <Button id="Party" fx:id="playlistMoodParty" alignment="CENTER" layoutX="105.0" layoutY="366.0" mnemonicParsing="false" onAction="#addPlaylistMood" style="-fx-background-color: pink; -fx-border-color: black;" text="PARTY" textAlignment="CENTER">
+                            <font>
+                                <Font name="Impact" size="15.0" />
+                            </font>
+                        </Button>
+                        <Button id="Angry" fx:id="playlistMoodAngry" alignment="CENTER" layoutX="179.0" layoutY="311.0" mnemonicParsing="false" onAction="#addPlaylistMood" style="-fx-background-color: pink; -fx-border-color: black;" text="ANGRY" textAlignment="CENTER">
+                            <font>
+                                <Font name="Impact" size="15.0" />
+                            </font>
+                        </Button>
+                        <Button id="Sad" fx:id="playlistMoodSad" alignment="CENTER" layoutX="113.0" layoutY="311.0" mnemonicParsing="false" onAction="#addPlaylistMood" style="-fx-background-color: pink; -fx-border-color: black;" text="SAD" textAlignment="CENTER">
+                            <font>
+                                <Font name="Impact" size="15.0" />
+                            </font>
+                        </Button>
+                        <Button id="Sleep" fx:id="playlistMoodSleep" alignment="CENTER" layoutX="25.0" layoutY="419.0" mnemonicParsing="false" onAction="#addPlaylistMood" style="-fx-background-color: pink; -fx-border-color: black;" text="SLEEP" textAlignment="CENTER">
+                            <font>
+                                <Font name="Impact" size="15.0" />
+                            </font>
+                        </Button>
+                        <Button id="Chill" fx:id="playlistMoodChill" alignment="CENTER" layoutX="29.0" layoutY="366.0" mnemonicParsing="false" onAction="#addPlaylistMood" style="-fx-background-color: pink; -fx-border-color: black;" text="CHILL" textAlignment="CENTER">
+                            <font>
+                                <Font name="Impact" size="15.0" />
+                            </font>
+                        </Button>
+                        <Label layoutX="106.0" layoutY="275.0" text="MOODS" textAlignment="CENTER">
+                            <font>
+                                <Font name="Impact" size="20.0" />
+                            </font>
+                        </Label>
+                  <Text fx:id="playlistNameErrorTextbox" fill="RED" layoutX="51.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="150.5078125" />
+                  <Text fx:id="playlistErrorTextbox" fill="RED" layoutX="8.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="238.5078125" />
+                  <Text fx:id="playlistAddedTextbox" fill="GREEN" layoutX="60.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="217.0"/>
+                    </children>
+                </Pane>
+                <Label layoutX="332.0" layoutY="14.0" text="Playlists" underline="true">
+                    <font>
+                        <Font name="Impact" size="45.0" />
+                    </font>
+                </Label>
+                <Button fx:id="clear" alignment="CENTER" layoutX="14.0" layoutY="27.0" mnemonicParsing="false" onAction="#clear" style="-fx-background-color: LIGHTBLUE; -fx-border-color: black;" text="CLEAR" textAlignment="CENTER">
+                    <font>
+                        <Font name="Impact" size="15.0" />
+                    </font>
+                </Button>
+                <Label layoutX="720.0" layoutY="8.0" text="© Group 2143">
+                    <font>
+                        <Font name="Impact" size="10.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
