@@ -26,10 +26,10 @@ def main():
         program_for_collections.create_collection(collection_name="Activity")
         program_for_collections.create_collection(
             collection_name="TrackPoint")
-        # print("__Running program for dropping collections__")
-        # program_for_collections.drop_collections(collection_name="Users")
-        # program_for_collections.drop_collections(collection_name="Activities")
-        # program_for_collections.drop_collections(collection_name="TrackPoints")
+        print("__Running program for dropping collections__")
+        # program_for_collections.drop_collections(collection_name="User")
+        # program_for_collections.drop_collections(collection_name="Activity")
+        # program_for_collections.drop_collections(collection_name="TrackPoint")
 
     except Exception as e:
         print("ERROR: Failed to use database:", e)
